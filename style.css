@@ -1,0 +1,26 @@
+body {
+    font-family: sans-serif;
+}
+
+#title,
+#description {
+    text-align: center;
+}
+
+#graph #legend #legendAxis g text {
+    font-weight: bold;
+}
+
+#legendAxis path {
+    stroke: none;
+}
+
+#tooltip {
+    font-size: 14px;
+    background: linear-gradient(45deg, skyblue, rgb(255, 0, 255));
+    color: rgba(1, 1, 124, 0.979);
+    border-radius: 20px;
+    padding: 10px;
+    box-shadow: 0 0 10px 2px;
+    pointer-events: none;
+}
